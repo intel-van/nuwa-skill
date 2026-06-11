@@ -191,9 +191,22 @@ nuwa-skill/
 ├── references/
 │   ├── extraction-framework.md # Extraction methodology (read this for depth)
 │   └── skill-template.md       # Template for generating skills
-└── examples/
-    ├── naval-perspective/       # Naval full example + research data
-    └── elon-musk-perspective/   # Musk full example + research data
+    └── examples/                       # 14 person skills + 1 topic skill
+        ├── steve-jobs-perspective/
+        ├── paul-graham-perspective/
+        ├── zhang-yiming-perspective/
+        ├── andrej-karpathy-perspective/
+        ├── ilya-sutskever-perspective/
+        ├── trump-perspective/
+        ├── mrbeast-perspective/
+        ├── elon-musk-perspective/
+        ├── munger-perspective/
+        ├── feynman-perspective/
+        ├── naval-perspective/
+        ├── taleb-perspective/
+        ├── sun-yuchen-perspective/
+        ├── zhangxuefeng-perspective/
+        └── x-mastery-mentor/            # Topic skill
 ```
 
 All research is fully transparent. The examples include complete research files — you can see how information was collected, filtered, and turned into mental models.

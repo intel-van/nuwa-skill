@@ -193,9 +193,22 @@ nuwa-skill/
 ├── references/
 │   ├── extraction-framework.md # 추출 방법론 (깊이 이해하고 싶다면 이것)
 │   └── skill-template.md       # 스킬 생성 템플릿
-└── examples/
-    ├── naval-perspective/       # Naval 전체 예시 + 조사 데이터
-    └── elon-musk-perspective/   # 머스크 전체 예시 + 조사 데이터
+    └── examples/                       # 14명의 인물 + 1개 테마
+        ├── steve-jobs-perspective/
+        ├── paul-graham-perspective/
+        ├── zhang-yiming-perspective/
+        ├── andrej-karpathy-perspective/
+        ├── ilya-sutskever-perspective/
+        ├── trump-perspective/
+        ├── mrbeast-perspective/
+        ├── elon-musk-perspective/
+        ├── munger-perspective/
+        ├── feynman-perspective/
+        ├── naval-perspective/
+        ├── taleb-perspective/
+        ├── sun-yuchen-perspective/
+        ├── zhangxuefeng-perspective/
+        └── x-mastery-mentor/            # 테마 스킬
 ```
 
 조사 과정은 완전히 투명하다. examples에는 완전한 조사 파일이 포함되어 있어 정보가 어떻게 수집, 필터링되어 정신 모델이 되었는지 확인할 수 있다.

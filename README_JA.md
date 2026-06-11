@@ -194,9 +194,22 @@ nuwa-skill/
 ├── references/
 │   ├── extraction-framework.md # 抽出方法論（深く理解したい人はこれを）
 │   └── skill-template.md       # スキル生成テンプレート
-└── examples/
-    ├── naval-perspective/       # Naval完全例 + 調査データ
-    └── elon-musk-perspective/   # マスク完全例 + 調査データ
+    └── examples/                       # 14の人物 + 1のテーマ
+        ├── steve-jobs-perspective/
+        ├── paul-graham-perspective/
+        ├── zhang-yiming-perspective/
+        ├── andrej-karpathy-perspective/
+        ├── ilya-sutskever-perspective/
+        ├── trump-perspective/
+        ├── mrbeast-perspective/
+        ├── elon-musk-perspective/
+        ├── munger-perspective/
+        ├── feynman-perspective/
+        ├── naval-perspective/
+        ├── taleb-perspective/
+        ├── sun-yuchen-perspective/
+        ├── zhangxuefeng-perspective/
+        └── x-mastery-mentor/            # テーマスキル
 ```
 
 調査プロセスはすべて透明だ。examplesには完全な調査ファイルが含まれており、情報がどのように収集・フィルタリングされ、メンタルモデルになったかを確認できる。

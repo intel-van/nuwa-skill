@@ -201,7 +201,7 @@ git clone https://github.com/alchaincyf/nuwa-skill <上面对应的路径>
 
 ## 已蒸馏人物
 
-女娲已蒸馏了13位人物 + 1个主题。每个都是独立的、可直接安装使用的Skill，全部基于 Agent Skills 协议，可在 Claude Code / Codex / Cursor / OpenClaw / Hermes 等 runtime 通用：
+女娲已蒸馏了14位人物 + 1个主题。每个都是独立的、可直接安装使用的Skill，全部基于 Agent Skills 协议，可在 Claude Code / Codex / Cursor / OpenClaw / Hermes 等 runtime 通用：
 
 ### 人物Skill
 
@@ -219,6 +219,8 @@ git clone https://github.com/alchaincyf/nuwa-skill <上面对应的路径>
 | **费曼** | 学习/教学/科学思维 | [feynman-skill](https://github.com/alchaincyf/feynman-skill) | `npx skills add alchaincyf/feynman-skill` |
 | **纳瓦尔** | 财富/杠杆/人生哲学 | [naval-skill](https://github.com/alchaincyf/naval-skill) | `npx skills add alchaincyf/naval-skill` |
 | **塔勒布** | 风险/反脆弱/不确定性 | [taleb-skill](https://github.com/alchaincyf/taleb-skill) | `npx skills add alchaincyf/taleb-skill` |
+| **孙宇晨** | 营销/加密/注意力/争议 | [sun-yuchen-skill](https://github.com/alchaincyf/sun-yuchen-skill) | `npx skills add alchaincyf/sun-yuchen-skill` |
+| **张雪峰** | 教育/职业规划/沟通/流量 | [zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | `npx skills add alchaincyf/zhangxuefeng-skill` |
 
 ### 主题Skill
 
@@ -268,6 +270,17 @@ npx skills add alchaincyf/darwin-skill
 
 ---
 
+## 深度阅读
+
+| 文档 | 说明 |
+|------|------|
+| [思维框架提炼方法论](references/extraction-framework.md) | 心智模型三重验证、表达DNA量化方法、矛盾处理原则 |
+| [Skill 生成模板](references/skill-template.md) | 人物 Skill 的 SKILL.md 标准结构 |
+| [女娲本体](SKILL.md) | 女娲的运行指令——造人全流程 |
+| [X/Twitter 推广帖](x-thread-en.md) | 英文版宣传短文 |
+
+---
+
 ## 仓库结构
 
 ```
@@ -276,7 +289,7 @@ nuwa-skill/
 ├── references/
 │   ├── extraction-framework.md   # 提炼方法论（想深入了解看这个）
 │   └── skill-template.md         # 生成Skill的模板
-└── examples/                          # 13个人物 + 1个主题，含完整调研数据
+└── examples/                          # 14个人物 + 1个主题，含完整调研数据
     ├── steve-jobs-perspective/        # ⭐ 乔布斯（含实战对话记录）
     ├── paul-graham-perspective/       # Paul Graham
     ├── zhang-yiming-perspective/      # 张一鸣
@@ -289,6 +302,8 @@ nuwa-skill/
     ├── feynman-perspective/           # 费曼
     ├── naval-perspective/             # Naval Ravikant
     ├── taleb-perspective/             # 塔勒布
+    ├── sun-yuchen-perspective/        # 孙宇晨
+    ├── zhangxuefeng-perspective/      # 张雪峰
     └── x-mastery-mentor/             # X导师（主题Skill）
 ```
 

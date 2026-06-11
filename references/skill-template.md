@@ -113,3 +113,7 @@ description: |
 > 本Skill由 [女娲 · Skill造人术](https://github.com/alchaincyf/nuwa-skill) 生成
 > 创建者：[花叔](https://x.com/AlchainHust)
 ```
+
+---
+
+[← 返回主 README](../README.md) · [📋 方法论](extraction-framework.md)
